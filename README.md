@@ -39,7 +39,7 @@ You may need to run `apt-get install -y librdkafka-dev` to install `librdkafka` 
 ```sh
 conda create -n kafka python=3
 conda activate kafka
-pip install git+https://github.com/online-ml/river "streamz[kafka]" black scikit-learn confluent-kafka --upgrade
+pip install git+https://github.com/online-ml/river black scikit-learn confluent-kafka --upgrade
 ```
 
 ### Kafka Topics
